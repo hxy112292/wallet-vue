@@ -1,24 +1,14 @@
 # wallet-vue
+This is the website of the wallet.
 
-## Project setup
-```
-npm install
-```
+# wallet-ionic
+The client use ionic, you can see it in: https://github.com/hxy112292/wallet-ionic
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# wallet-springboot
+The backend use springtboot, you can see it in: https://github.com/hxy112292/wallet-springboot
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## This is my personal wallet
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I am a student. Now I am studying blockchain wallet.
+My wallet is based on ionic framework.
+If you have any advice, can email me [xinyuan.huang@mavs.uta.edu](xinyuan.huang@mavs.uta.edu)
