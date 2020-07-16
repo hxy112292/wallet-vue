@@ -11,12 +11,12 @@
       <strong style="color: #FFCC33">e </strong>
       <strong style="color: #448AFF">t </strong>
     </h1>
-    <p style="font-size: large">HD-Wallet 是一个简单好用的区块链钱包，支持BTC/ETH/LTC/BCH/XRP等多个币种，还配备强大的策略助手来满足的您的投资需求。</p>
+    <p style="font-size: large;margin: 0px 3% 0px 3%">HD-Wallet 是一个简单好用的区块链钱包，支持BTC/ETH/LTC/BCH/XRP等多个币种，还配备强大的策略助手来满足的您的投资需求。</p>
     <el-container>
       <el-main>
         <el-row :gutter="20">
           <el-col :md="24" :lg="7" :xl="10">
-            <h2>Android 安装包下载</h2>
+            <h2 style="margin: 0px">Android 安装包下载</h2>
             <p>版本：{{version}}</p>
             <el-button type="primary" @click="downloadApk" icon="el-icon-download">点击下载</el-button>
             <p><strong>或扫码下载：</strong></p>

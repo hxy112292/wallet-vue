@@ -9,6 +9,7 @@
     </el-menu>
     <router-view/>
     <el-footer style="bottom: 0">
+      <br>
       <i style="color: #0d0d0d">Copyright @2020
         <i class="hidden-sm-and-down">All rights reserved made by </i>
         <i style="color: dodgerblue">Xinyuan Huang</i>
@@ -53,8 +54,8 @@ import 'element-ui/lib/theme-chalk/display.css';
 
 .el-footer {
   text-align: center;
-  line-height: 60px;
-  position: absolute;
+  line-height: 30px;
+  position: relative;
   left: 0;
   right: 0;
   bottom: 0;
