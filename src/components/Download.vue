@@ -4,24 +4,21 @@
     <el-container>
       <el-main>
         <el-row :gutter="20">
-          <el-col :sm="24" :lg="8">
+          <el-col :md="24" :lg="7" :xl="10">
             <h2>Android 安装包下载</h2>
-            <el-button type="primary" @click="downloadApk">点击下载</el-button>
+            <el-button type="primary" @click="downloadApk" icon="el-icon-download">点击下载</el-button>
             <h3>或扫码下载：</h3>
             <br>
-            <vue-qr :text="downloadData.url" :margin="0" colorDark="#0d0d0d" colorLight="#fff" :logoSrc="downloadData.icon" :size="200"></vue-qr>
+            <vue-qr :text="downloadData.url" :margin="0" colorDark="#0d0d0d" colorLight="#fff" :logoSrc="downloadData.icon" :size="300"></vue-qr>
           </el-col>
-          <el-col :span="4" class="hidden-sm-and-down">
+          <el-col :lg="5" :xl="4" class="hidden-md-and-down">
             <el-image :src="imageUrl1"></el-image>
           </el-col>
-          <el-col :span="4" class="hidden-sm-and-down">
+          <el-col :lg="5" :xl="4" class="hidden-md-and-down">
             <el-image :src="imageUrl2"></el-image>
           </el-col>
-          <el-col :span="4" class="hidden-sm-and-down">
+          <el-col :lg="5" :xl="4" class="hidden-md-and-down">
             <el-image :src="imageUrl3"></el-image>
-          </el-col>
-          <el-col :span="4" class="hidden-sm-and-down">
-            <el-image :src="imageUrl4"></el-image>
           </el-col>
         </el-row>
       </el-main>
@@ -72,18 +69,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  h3 {
+    margin: 40px 0 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
 </style>

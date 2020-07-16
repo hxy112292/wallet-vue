@@ -6,12 +6,15 @@
     </div>
     <router-view/>
     <el-footer style="bottom: 0">
-      <i style="color: #0d0d0d">Copyright @2020 All rights reserved made by
+      <i style="color: #0d0d0d">Copyright @2020
+        <i class="hidden-sm-and-down">All rights reserved made by </i>
         <i style="color: dodgerblue">Xinyuan Huang</i>
       </i>
     </el-footer>
   </div>
 </template>
+
+import 'element-ui/lib/theme-chalk/display.css';
 
 <style lang="scss">
 #app {
