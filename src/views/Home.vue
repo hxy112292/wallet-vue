@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Download msg="欢迎使用 hd-wallet"/>
+    <Download/>
   </div>
 </template>
 

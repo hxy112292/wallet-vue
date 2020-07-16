@@ -1,9 +1,12 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">首页</router-link> |
-      <router-link to="/github">Github</router-link>
-    </div>
+    <el-menu class="app-menu"
+             mode="horizontal"
+             :default-active="activeIndex"
+             router>
+      <el-menu-item index="/">首页</el-menu-item>
+      <el-menu-item index="/github">Github</el-menu-item>
+    </el-menu>
     <router-view/>
     <el-footer style="bottom: 0">
       <i style="color: #0d0d0d">Copyright @2020
@@ -15,7 +18,17 @@
 </template>
 
 import 'element-ui/lib/theme-chalk/display.css';
-
+<script>
+  export default {
+    data() {
+      return {
+        activeIndex: '/'
+      };
+    },
+    methods: {
+    }
+  }
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -45,5 +58,9 @@ import 'element-ui/lib/theme-chalk/display.css';
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.el-menu-item{
+  font-size: medium !important;
 }
 </style>
