@@ -78,7 +78,7 @@ export default {
       let link = document.createElement('a')
       link.style.display = 'none'
       link.href = url
-      link.setAttribute('download', 'hd-wallet_v_' + this.version.replace(/\./, '_') + '.apk')
+      link.setAttribute('download', 'hd-wallet_v_' + this.version.replace(/\./g, '_') + '.apk')
 
       document.body.appendChild(link)
       link.click()
