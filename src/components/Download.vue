@@ -9,7 +9,7 @@
             <el-button type="primary" @click="downloadApk" icon="el-icon-download">点击下载</el-button>
             <h3>或扫码下载：</h3>
             <br>
-            <vue-qr :text="downloadData.url" :margin="0" colorDark="#0d0d0d" colorLight="#fff" :logoSrc="downloadData.icon" :size="300"></vue-qr>
+            <vue-qr :text="downloadData.url" :margin="0" colorDark="#0d0d0d" colorLight="#fff" :logoSrc="downloadData.icon" :size="200"></vue-qr>
           </el-col>
           <el-col :lg="5" :xl="4" class="hidden-md-and-down">
             <el-image :src="imageUrl1"></el-image>
