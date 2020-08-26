@@ -48,7 +48,7 @@ export default {
   data() {
     return {
       downloadData: {
-        url: this.$global.baseUrl + '/update/apk',
+        url: this.$global.clubUrl + '/update/apk',
         icon: require('../assets/icon.png')
       },
       imageUrl1: require('../assets/wallet.png'),
@@ -68,14 +68,14 @@ export default {
   methods: {
     getApkVersion () {
       console.log(this.$store.baseUrl);
-      this.$axios.get(this.$global.baseUrl + '/update/version').then( res=> {
+      this.$axios.get(this.$global.clubUrl + '/update/version').then( res=> {
         this.version = res.data.result;
       })
     },
     downloadApk () {
       // window.open("https://www.hd-wallet.com:7070/update/apk")
 
-      let url = this.$global.baseUrl + "/update/apk"
+      let url = this.$global.clubUrl + "/update/apk"
       let link = document.createElement('a')
       link.style.display = 'none'
       link.href = url
