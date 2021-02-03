@@ -5,7 +5,7 @@ This is the website of the wallet.
 The client use ionic, you can see it in: https://github.com/hxy112292/wallet-ionic
 
 # wallet-springboot
-The backend use springtboot, you can see it in: https://github.com/hxy112292/wallet-springboot
+The backend use springtboot, you can see it in: https://github.com/hxy112292/wallet-backend
 
 ## This is my personal wallet
 
