@@ -68,7 +68,7 @@ export default {
   methods: {
     getApkVersion () {
       console.log(this.$store.baseUrl);
-      this.$axios.get(this.$global.clubUrl + '/update/version').then( res=> {
+      this.$axios.get(this.$global.baseUrl + '/update/version').then( res=> {
         this.version = res.data.result;
       })
     },
