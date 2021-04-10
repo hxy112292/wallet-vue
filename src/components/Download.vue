@@ -11,7 +11,7 @@
       <strong style="color: #FFCC33">e </strong>
       <strong style="color: #448AFF">t </strong>
     </h1>
-    <p style="font-size: large;margin: 0px 3% 0px 3%">HD-Wallet 是一个简单好用的区块链钱包，支持BTC/ETH/LTC/BCH/XRP等多个币种，还配备强大的策略助手来满足的您的投资需求。</p>
+    <p style="font-size: large;margin: 0px 3% 0px 3%">HD-Wallet 是一个简单好用的区块链钱包，支持BTC/ETH/LTC/BCH等多个币种，还配备强大的策略助手来满足的您的投资需求。</p>
     <el-container>
       <el-main>
         <el-row :gutter="20">
