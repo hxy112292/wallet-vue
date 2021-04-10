@@ -5,7 +5,7 @@
              :default-active="activeIndex"
              router>
       <el-menu-item index="/">首页</el-menu-item>
-      <el-menu-item index="/github">Github</el-menu-item>
+<!--      <el-menu-item index="/github">Github</el-menu-item>-->
     </el-menu>
     <router-view/>
     <el-footer style="bottom: 0">
