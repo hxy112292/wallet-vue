@@ -75,7 +75,7 @@ export default {
     downloadApk () {
       // window.open("https://www.hd-wallet.com:7070/update/apk")
 
-      let url = this.$global.clubUrl + "/update/apk"
+      let url = this.$global.baseUrl + "/update/apk"
       let link = document.createElement('a')
       link.style.display = 'none'
       link.href = url
