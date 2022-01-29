@@ -4,15 +4,17 @@
              mode="horizontal"
              :default-active="activeIndex"
              router>
-      <el-menu-item index="/">首页</el-menu-item>
-<!--      <el-menu-item index="/github">Github</el-menu-item>-->
+      <el-menu-item index="/">Home</el-menu-item>
+      <el-menu-item index="/github">Github</el-menu-item>
     </el-menu>
     <router-view/>
     <el-footer style="bottom: 0">
       <br>
       <i style="color: #0d0d0d">Copyright @2020
         <i class="hidden-sm-and-down">All rights reserved made by </i>
-        <i style="color: dodgerblue">Xinyuan Huang</i>
+        <i style="color: dodgerblue">Xinyuan Huang </i>
+        <i style="color: dodgerblue">The University of Texas At Arlington </i>
+        <i style="color: dodgerblue">Beijing University of Posts and Telecommunications </i>
       </i>
     </el-footer>
   </div>
